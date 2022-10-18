@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="stylesheet" href="./quotes.css">
+    <style>
+        
+    </style>
+
+
+
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Quotes Website</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="inner" data-aos="zoom-in-left">
+            <div class="box">
+
+                <p class="number">
+                    <img src="./tweet.jpg" alt="tweet" srcset="" title="tweet" id="tweet" height="250px" width="250px">
+                </p>
+                <div class="text">
+
+                    <i class="start-quote fas fa-quote-left"></i>
+                    <p id="quotes" class="quote"></p>
+                    <p id="author" class="author"></p>
+                </div>
+                <label class="button">
+                    <p id="newwwQ"> New Quotes</p>
+                </label>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./quote.js"> </script>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
